@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uchburchaklar Témasi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(to bottom, #e0f7fa, #80deea);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #00897b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        section h2 {
+            color: #00695c;
+        }
+        section p {
+            line-height: 1.6;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border: 2px solid #00897b;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #004d40;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        button {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px 15px;
+            background-color: #00897b;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media print {
+            header, footer, button {
+                display: none;
+            }
+            body {
+                background: white;
+                color: black;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                border: none;
+            }
+        }
+        @media (max-width: 768px) {
+            header, footer {
+                padding: 15px;
+            }
+            section h2 {
+                font-size: 1.2em;
+            }
+            section p {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Uchburchaklar Témasi</h1>
+    </header>
+    <button onclick="window.print()">Chop etish</button>
+    <main>
+        <section>
+            <h2>Uchburchak Nima?</h2>
+            <p>
+                Uchburchak uchta tomon va uchta burchakka ega bo'lgan eng oddiy geometrik shakllardan biridir. U planimetriya va trigonometriyada asosiy element sifatida qaraladi.
+            </p>
+            <img src="uchburchak.webp" alt="Uchburchakning asosiy shakli">
+        </section>
+        <section>
+            <h2>Uchburchak Turlari</h2>
+            <ul>
+                <li><b>To'g'ri burchakli uchburchak:</b> Bitta burchagi 90 darajaga teng.</li>
+                <li><b>O'tkir burchakli uchburchak:</b> Uchta burchagi ham 90 darajadan kichik.</li>
+                <li><b>O'tkir burchakli uchburchak:</b> Bitta burchagi 90 darajadan katta.</li>
+                <li><b>Teng yonli uchburchak:</b> Ikki tomoni teng.</li>
+                <li><b>Teng tomonli uchburchak:</b> Uchta tomoni ham teng.</li>
+            </ul>
+            <img src="./DALL·E 2024-12-24 18.35.32 - A diagram showing types of triangles_ equilateral, isosceles, and scalene, with clear labels and a clean design suitable for educational purposes. Bac.webp" alt="Uchburchak turlari">
+        </section>
+        <section>
+            <h2>Uchburchak Formulalari</h2>
+            <p><b>Perimetri:</b> Uchburchak tomonlarining yig'indisi.</p>
+            <p><b>Maydon:</b> To'g'ri burchakli uchburchak uchun:</p>
+            <p style="text-align: center; font-weight: bold;">Maydon = (asos * balandlik) / 2</p>
+        </section>
+        <section>
+            <h2>Qiziqarli Faktlar</h2>
+            <p>
+                Uchburchaklarning asosiy qoidalaridan biri: istalgan ikkita tomon yig'indisi uchinchi tomondan katta bo'lishi kerak. Bu qoidani buzgan har qanday shakl uchburchak bo'la olmaydi.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Muallif: Fozilkhon</p>
+    </footer>
+</body>
+</html>
